@@ -168,7 +168,7 @@ async def gspider(userbot):
             try:
                 await userbot.client.edit_permissions(i, user, send_messages=True)
                 a += 1
-                await friday.edit(f"**UNGBANNING // AFFECTED CHATS - {a} **")
+                await friday.edit(f"**UNGBANNING WAIT // AFFECTED CHATS - {a} **")
             except:
                 b += 1
     else:
